@@ -59,21 +59,21 @@ AI SDK Image Generator is a powerful web application that leverages multiple AI 
 #### Replicate Models
 
 <div align="center">
-  <img src="screenshots/replicate_model.png" alt="Replicate Models " width="800"/>
+  <img src="screenshots/replicate_model.png" alt="Replicate Models" width="800"/>
   <p>Stable Diffusion model options from Replicate</p>
 </div>
 
 #### Vertex AI Models
 
 <div align="center">
-  <img src="screenshots/vertex_ai_model.png" alt="Vertex AI Models" width="800"/>
+  <img src="screenshots/vertex_aI_model.pngg" alt="Vertex AI Models" width="800"/>
   <p>Imagen model from Google Vertex AI</p>
 </div>
 
 #### OpenAI Models
 
 <div align="center">
-  <img src="screenshots/openai_model.png" alt="OpenAI Models" width="800"/>
+  <img src="screenshots/openaI_model.png" alt="OpenAI Models" width="800"/>
   <p>DALL-E 3 model from OpenAI</p>
 </div>
 
