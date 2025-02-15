@@ -66,7 +66,7 @@ AI SDK Image Generator is a powerful web application that leverages multiple AI 
 #### Vertex AI Models
 
 <div align="center">
-  <img src="screenshots/vertex_aI_model.pngg" alt="Vertex AI Models" width="800"/>
+  <img src="screenshots/vertex_aI_model.png" alt="Vertex AI Models" width="800"/>
   <p>Imagen model from Google Vertex AI</p>
 </div>
 
