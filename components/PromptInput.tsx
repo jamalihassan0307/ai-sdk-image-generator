@@ -81,8 +81,8 @@ export function PromptInput({
                     index > 2
                       ? "hidden md:flex"
                       : index > 1
-                        ? "hidden sm:flex"
-                        : "",
+                      ? "hidden sm:flex"
+                      : ""
                   )}
                 >
                   <span>

@@ -12,6 +12,8 @@ export function Stopwatch({ startTime }: { startTime: number }) {
   }, [startTime]);
 
   return (
-    <div className="text-lg text-zinc-500 font-mono">{(elapsed / 1000).toFixed(1)}s</div>
+    <div className="text-lg text-zinc-500 font-mono">
+      {(elapsed / 1000).toFixed(1)}s
+    </div>
   );
 }

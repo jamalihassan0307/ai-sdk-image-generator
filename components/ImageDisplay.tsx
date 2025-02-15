@@ -7,7 +7,12 @@ import { cn } from "@/lib/utils";
 import { imageHelpers } from "@/lib/image-helpers";
 import { ProviderTiming } from "@/lib/image-types";
 import { Label } from "@/components/ui/label";
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "./ui/tooltip";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "./ui/tooltip";
 
 interface ImageDisplayProps {
   provider: string;
@@ -67,7 +72,7 @@ export function ImageDisplay({
   const handleActionClick = (
     e: React.MouseEvent,
     imageData: string,
-    provider: string,
+    provider: string
   ) => {
     e.stopPropagation();
     imageHelpers.shareOrDownload(imageData, provider).catch((error) => {
@@ -81,7 +86,7 @@ export function ImageDisplay({
         className={cn(
           "relative w-full aspect-square group bg-zinc-50 rounded-lg",
           image && !failed && "cursor-pointer",
-          (!image || failed) && "border-1 border-zinc-100",
+          (!image || failed) && "border-1 border-zinc-100"
         )}
         onClick={handleImageClick}
       >
@@ -183,7 +188,7 @@ export function ImageDisplay({
               onClick={(e) => e.stopPropagation()}
             />
           </div>,
-          document.body,
+          document.body
         )}
     </>
   );

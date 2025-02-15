@@ -35,7 +35,7 @@ export function ImagePlayground({
     Record<ProviderKey, string>
   >(MODEL_CONFIGS.performance);
   const [enabledProviders, setEnabledProviders] = useState(
-    initializeProviderRecord(true),
+    initializeProviderRecord(true)
   );
   const [mode, setMode] = useState<ModelMode>("performance");
   const toggleView = () => {

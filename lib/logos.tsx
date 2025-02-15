@@ -1,4 +1,3 @@
-
 export const FireworksIcon = ({ size = 16 }) => {
   return (
     <svg
@@ -23,8 +22,8 @@ export const FireworksIcon = ({ size = 16 }) => {
         />
       </g>
     </svg>
-  )
-}
+  );
+};
 
 export const OpenAIIcon = ({ size = 16 }) => {
   return (
@@ -34,7 +33,7 @@ export const OpenAIIcon = ({ size = 16 }) => {
       strokeLinejoin="round"
       viewBox="0 0 16 16"
       width={size}
-      style={{ color: 'currentcolor' }}
+      style={{ color: "currentcolor" }}
     >
       <path
         transform="scale(0.8) translate(2,2)"
@@ -42,8 +41,8 @@ export const OpenAIIcon = ({ size = 16 }) => {
         fill="currentColor"
       ></path>
     </svg>
-  )
-}
+  );
+};
 
 export const ReplicateIcon = ({ size = 16 }) => {
   return (
@@ -52,7 +51,7 @@ export const ReplicateIcon = ({ size = 16 }) => {
       width={size}
       viewBox="0 0 1500 1500"
       xmlns="http://www.w3.org/2000/svg"
-      style={{ color: 'currentcolor' }}
+      style={{ color: "currentcolor" }}
     >
       <g fill="white" transform="scale(0.8) translate(450,450)">
         <polygon points="1000,427.6 1000,540.6 603.4,540.6 603.4,1000 477,1000 477,427.6" />
@@ -60,8 +59,8 @@ export const ReplicateIcon = ({ size = 16 }) => {
         <polygon points="1000,0 1000,113.2 126.4,113.2 126.4,1000 0,1000 0,0" />
       </g>
     </svg>
-  )
-}
+  );
+};
 
 export const VertexIcon = ({ size = 16 }) => {
   return (
@@ -70,7 +69,7 @@ export const VertexIcon = ({ size = 16 }) => {
       width={size}
       viewBox="0 0 512 512"
       xmlns="http://www.w3.org/2000/svg"
-      style={{ color: 'currentcolor' }}
+      style={{ color: "currentcolor" }}
     >
       <g transform="scale(0.8) translate(65,65)">
         <path
@@ -109,5 +108,5 @@ export const VertexIcon = ({ size = 16 }) => {
         <circle cx="192" cy="337" r="16" fill="white" />
       </g>
     </svg>
-  )
-}
+  );
+};
