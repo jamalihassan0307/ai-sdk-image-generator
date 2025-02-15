@@ -50,59 +50,59 @@ AI SDK Image Generator is a powerful web application that leverages multiple AI 
 ### 1. Main Interface
 
 <div align="center">
-  <img src="screenshots/sdkai.png" alt="Main Interface" width="800"/>
-  <p>The main application interface with text input and provider selection</p>
+  <img src="screenshots/demo_image_generated.png" alt="Main Interface" width="800"/>
+  <p>The main application interface showing generated penguin images across different AI providers</p>
 </div>
 
-### 2. Image Generation Process
-
-<div align="center">
-  <img src="screenshots/loading.png" alt="Loading State" width="800"/>
-  <p>Loading state while images are being generated</p>
-</div>
-
-### 3. Provider-Specific Models
+### 2. Model Selection & Generation
 
 #### Replicate Models
 
 <div align="center">
   <img src="screenshots/replicate_model.png" alt="Replicate Models" width="800"/>
-  <p>Available models from Replicate</p>
+  <p>Stable Diffusion model options from Replicate</p>
 </div>
 
 #### Vertex AI Models
 
 <div align="center">
   <img src="screenshots/vertex_ai_model.png" alt="Vertex AI Models" width="800"/>
-  <p>Google Vertex AI model options</p>
+  <p>Imagen model from Google Vertex AI</p>
 </div>
 
 #### OpenAI Models
 
 <div align="center">
   <img src="screenshots/openai_model.png" alt="OpenAI Models" width="800"/>
-  <p>OpenAI DALL-E integration</p>
+  <p>DALL-E 3 model from OpenAI</p>
 </div>
 
 #### Fireworks Models
 
 <div align="center">
   <img src="screenshots/fireworks_models.png" alt="Fireworks Models" width="800"/>
-  <p>Available Fireworks AI models</p>
+  <p>Available models from Fireworks including flux-1-schnell-fp8</p>
 </div>
 
-### 4. Generated Results
+### 3. Generated Results Example
 
 <div align="center">
   <img src="screenshots/generated_images.png" alt="Generated Images" width="800"/>
-  <p>Example of generated images across different providers</p>
+  <p>Example of a cat in ukiyo-e style generated across different providers</p>
+</div>
+
+### 4. Loading States
+
+<div align="center">
+  <img src="screenshots/loading.png" alt="Loading State" width="800"/>
+  <p>Generation progress indicators for each provider</p>
 </div>
 
 ### 5. Error Handling
 
 <div align="center">
   <img src="screenshots/image_generation_error.png" alt="Error Handling" width="800"/>
-  <p>Error handling and user feedback</p>
+  <p>Error feedback when image generation fails</p>
 </div>
 
 ## 🚀 Getting Started
