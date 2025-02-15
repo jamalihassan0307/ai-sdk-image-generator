@@ -59,7 +59,7 @@ AI SDK Image Generator is a powerful web application that leverages multiple AI 
 #### Replicate Models
 
 <div align="center">
-  <img src="screenshots/replicate_model.png" alt="Replicate Models" width="800"/>
+  <img src="screenshots/replicate_model.png" alt="Replicate Models " width="800"/>
   <p>Stable Diffusion model options from Replicate</p>
 </div>
 
